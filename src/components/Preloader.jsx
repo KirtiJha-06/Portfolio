@@ -57,6 +57,7 @@ const Preloader = ({ setLoading }) => {
             className="w-48 h-2 bg-purple-500 my-4 rounded-full"
             initial="hidden"
             animate="visible"
+
             variants={lineVariants}
           ></motion.div>
           <motion.p
